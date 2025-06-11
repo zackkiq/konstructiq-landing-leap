@@ -13,21 +13,21 @@ const CTA = () => {
               Ready to Transform Your Estimating Process?
             </h2>
             <p className="text-xl text-brand-light mb-8">
-              Start your free demo today and see how our AI can revolutionize your construction estimates in just minutes.
+              Start your demo today and see how our AI can revolutionize your construction estimates in just minutes.
             </p>
             
             <div className="flex flex-col gap-4 text-brand-light">
               <span className="flex items-center gap-2 justify-center lg:justify-start">
                 <CheckCircle className="h-5 w-5" />
-                14-day free trial
+                30-day money back guarantee
               </span>
               <span className="flex items-center gap-2 justify-center lg:justify-start">
                 <CheckCircle className="h-5 w-5" />
-                No setup fees
+                Unlimited users & projects
               </span>
               <span className="flex items-center gap-2 justify-center lg:justify-start">
                 <CheckCircle className="h-5 w-5" />
-                Cancel anytime
+                One flat fee pricing
               </span>
             </div>
           </div>

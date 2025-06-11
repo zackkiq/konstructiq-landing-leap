@@ -9,9 +9,14 @@ const Hero = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <Badge className="bg-brand-secondary/20 text-brand-dark border-brand-secondary/30">
-              🚀 Trusted by 500+ Construction Companies
-            </Badge>
+            <div className="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+              <Badge className="bg-brand-secondary/20 text-brand-dark border-brand-secondary/30">
+                🚀 Trusted by 500+ Construction Companies
+              </Badge>
+              <a href="https://www.capterra.com/p/10024163/KonstructIQ/reviews/" target="_blank" rel="noopener noreferrer">
+                <img border="0" src="https://brand-assets.capterra.com/badge/1908d028-e12a-417f-9600-c961169ab39e.svg" alt="Capterra Badge" className="h-8" />
+              </a>
+            </div>
             
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-brand-dark">
               Get Accurate <span className="text-brand-primary">Construction Estimates</span> in Minutes, Not Days
@@ -24,14 +29,18 @@ const Hero = () => {
             
             <div className="flex items-center gap-6 text-sm text-gray-600">
               <span className="flex items-center gap-1">
-                ✅ No credit card required
+                ✅ 30-day money back guarantee
               </span>
               <span className="flex items-center gap-1">
-                ✅ 14-day free trial
+                ✅ Unlimited users
               </span>
               <span className="flex items-center gap-1">
-                ✅ Setup in 5 minutes
+                ✅ Unlimited projects
               </span>
+            </div>
+            
+            <div className="bg-brand-secondary/10 p-4 rounded-lg border border-brand-secondary/20">
+              <p className="text-brand-dark font-semibold">One flat fee - No per-user charges</p>
             </div>
           </div>
           

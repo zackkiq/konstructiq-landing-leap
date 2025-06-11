@@ -6,24 +6,24 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Sarah Mitchell",
-      role: "Project Manager",
-      company: "BuildTech Solutions",
-      content: "This AI estimating tool has revolutionized our bidding process. We're now 40% faster and winning more projects than ever before.",
+      name: "Customer Review",
+      role: "Google Review",
+      company: "Verified Google Customer",
+      content: "Please replace this with actual Google review content from your Google Business listing.",
       rating: 5
     },
     {
-      name: "Mike Rodriguez",
-      role: "Construction Director",
-      company: "Premier Contractors",
-      content: "The accuracy is incredible. We've reduced our estimate variance from 15% to just 3%. It's paid for itself in the first month.",
+      name: "Customer Review",
+      role: "Google Review", 
+      company: "Verified Google Customer",
+      content: "Please replace this with actual Google review content from your Google Business listing.",
       rating: 5
     },
     {
-      name: "Jennifer Chen",
-      role: "Estimating Manager",
-      company: "Urban Development Corp",
-      content: "Finally, a tool that understands construction. The AI picks up details that even experienced estimators sometimes miss.",
+      name: "Customer Review",
+      role: "Google Review",
+      company: "Verified Google Customer", 
+      content: "Please replace this with actual Google review content from your Google Business listing.",
       rating: 5
     }
   ];
@@ -36,7 +36,7 @@ const Testimonials = () => {
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600">
-            Join hundreds of construction professionals who trust our AI estimating platform
+            Real reviews from verified Google customers
           </p>
         </div>
         
