@@ -29,10 +29,10 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="py-20 bg-blue-50">
+    <section className="py-20 bg-brand-light">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-brand-dark mb-4">
             What Our Customers Say
           </h2>
           <p className="text-xl text-gray-600">
@@ -46,14 +46,14 @@ const Testimonials = () => {
               <CardContent className="p-8">
                 <div className="flex mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="h-5 w-5 text-yellow-400 fill-current" />
+                    <Star key={i} className="h-5 w-5 text-brand-secondary fill-current" />
                   ))}
                 </div>
                 <p className="text-gray-700 mb-6 italic">"{testimonial.content}"</p>
                 <div>
-                  <div className="font-semibold text-gray-900">{testimonial.name}</div>
+                  <div className="font-semibold text-brand-dark">{testimonial.name}</div>
                   <div className="text-gray-600 text-sm">{testimonial.role}</div>
-                  <div className="text-blue-600 text-sm font-medium">{testimonial.company}</div>
+                  <div className="text-brand-primary text-sm font-medium">{testimonial.company}</div>
                 </div>
               </CardContent>
             </Card>

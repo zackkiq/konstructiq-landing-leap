@@ -20,7 +20,7 @@ const Features = () => {
       <div className="container mx-auto max-w-7xl px-4">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-4xl font-bold text-brand-dark mb-6">
               Everything You Need for Accurate Estimates
             </h2>
             <p className="text-xl text-gray-600 mb-8">
@@ -41,9 +41,9 @@ const Features = () => {
           <div className="relative">
             <Card className="shadow-2xl">
               <CardContent className="p-0">
-                <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-6 rounded-t-lg">
+                <div className="bg-gradient-to-r from-brand-primary to-brand-primary/80 text-white p-6 rounded-t-lg">
                   <h3 className="text-xl font-semibold mb-2">Project Dashboard</h3>
-                  <p className="text-blue-100">Real-time estimate tracking</p>
+                  <p className="text-brand-light">Real-time estimate tracking</p>
                 </div>
                 <div className="p-6 space-y-4">
                   <div className="flex justify-between items-center py-2">
@@ -52,11 +52,11 @@ const Features = () => {
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="text-gray-600">Residential Complex</span>
-                    <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded text-sm">In Progress</span>
+                    <span className="bg-brand-primary/10 text-brand-primary px-2 py-1 rounded text-sm">In Progress</span>
                   </div>
                   <div className="flex justify-between items-center py-2">
                     <span className="text-gray-600">Warehouse Expansion</span>
-                    <span className="bg-yellow-100 text-yellow-800 px-2 py-1 rounded text-sm">Review</span>
+                    <span className="bg-brand-secondary/20 text-brand-dark px-2 py-1 rounded text-sm">Review</span>
                   </div>
                 </div>
               </CardContent>

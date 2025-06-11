@@ -3,11 +3,11 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12">
+    <footer className="bg-brand-dark text-white py-12">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="grid md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">AI Estimator Pro</h3>
+            <h3 className="text-xl font-bold mb-4">KonstructIQ</h3>
             <p className="text-gray-400">
               The most accurate construction estimating platform powered by artificial intelligence.
             </p>
@@ -45,7 +45,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 AI Estimator Pro. All rights reserved.</p>
+          <p>&copy; 2024 KonstructIQ. All rights reserved.</p>
         </div>
       </div>
     </footer>

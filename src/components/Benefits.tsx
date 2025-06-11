@@ -32,10 +32,10 @@ const Benefits = () => {
   ];
 
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-20 bg-brand-light">
       <div className="container mx-auto max-w-7xl px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl font-bold text-brand-dark mb-4">
             Why Choose AI-Powered Estimating?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -48,11 +48,11 @@ const Benefits = () => {
           {benefits.map((benefit, index) => (
             <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8 text-center">
-                <div className="bg-blue-100 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <benefit.icon className="h-8 w-8 text-blue-600" />
+                <div className="bg-brand-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
+                  <benefit.icon className="h-8 w-8 text-brand-primary" />
                 </div>
-                <div className="text-2xl font-bold text-orange-600 mb-2">{benefit.stat}</div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">{benefit.title}</h3>
+                <div className="text-2xl font-bold text-brand-secondary mb-2">{benefit.stat}</div>
+                <h3 className="text-xl font-semibold text-brand-dark mb-4">{benefit.title}</h3>
                 <p className="text-gray-600 leading-relaxed">{benefit.description}</p>
               </CardContent>
             </Card>
