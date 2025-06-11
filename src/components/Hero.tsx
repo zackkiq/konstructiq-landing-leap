@@ -14,7 +14,7 @@ const Hero = () => {
                 🚀 Trusted by 500+ Construction Companies
               </Badge>
               <a href="https://www.capterra.com/p/10024163/KonstructIQ/reviews/" target="_blank" rel="noopener noreferrer">
-                <img border="0" src="https://brand-assets.capterra.com/badge/1908d028-e12a-417f-9600-c961169ab39e.svg" alt="Capterra Badge" className="h-8" />
+                <img src="https://brand-assets.capterra.com/badge/1908d028-e12a-417f-9600-c961169ab39e.svg" alt="Capterra Badge" className="h-8" />
               </a>
             </div>
             

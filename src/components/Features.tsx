@@ -5,14 +5,14 @@ import { CheckCircle } from 'lucide-react';
 
 const Features = () => {
   const features = [
-    "Automated takeoff from blueprints",
     "Real-time material pricing",
     "Labor cost calculations",
     "Risk assessment & contingencies",
     "Integration with project management tools",
     "Custom reporting & analytics",
     "Multi-trade coordination",
-    "Historical data analysis"
+    "Historical data analysis",
+    "Change order management"
   ];
 
   return (
@@ -25,7 +25,7 @@ const Features = () => {
             </h2>
             <p className="text-xl text-gray-600 mb-8">
               Our comprehensive platform handles every aspect of construction estimating, 
-              from initial takeoffs to final bid submission.
+              from initial calculations to final bid submission.
             </p>
             
             <div className="grid sm:grid-cols-2 gap-4">

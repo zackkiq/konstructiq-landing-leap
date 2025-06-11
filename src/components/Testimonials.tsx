@@ -6,24 +6,24 @@ import { Star } from 'lucide-react';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: "Customer Review",
-      role: "Google Review",
-      company: "Verified Google Customer",
-      content: "Please replace this with actual Google review content from your Google Business listing.",
+      name: "MCM Electric",
+      role: "Construction Company",
+      company: "Google Review",
+      content: "KonstructIQ is a great resource for our business and has helped streamline our estimating, change orders, daily log and invoicing process and has also helped us get paid quicker from our clients!! The support team have been incredibly helpful whenever I have questions on a particular feature!",
       rating: 5
     },
     {
-      name: "Customer Review",
-      role: "Google Review", 
-      company: "Verified Google Customer",
-      content: "Please replace this with actual Google review content from your Google Business listing.",
+      name: "Dustin Leach",
+      role: "Construction Professional", 
+      company: "Google Review",
+      content: "My companies experience with Konstruct IQ has been nothing short of amazing. The new AI technology will be a game changer to my team of estimators. We have worked closely with Joy and Justin and they have taken our feedback and worked in our suggestions. Glad we are using this in our day to day operations!",
       rating: 5
     },
     {
-      name: "Customer Review",
-      role: "Google Review",
-      company: "Verified Google Customer", 
-      content: "Please replace this with actual Google review content from your Google Business listing.",
+      name: "Matt Komo",
+      role: "Builder & Business Owner",
+      company: "Google Review",
+      content: "KonstructIQ brings all of my financial management needs to one place for my projects. I can enter data one time and manage it throughout the site while paying subcontractors and vendors more efficiently. It simplifies everything on the financial side of my business. My experience with them has been fantastic. The team focuses on real solutions for the construction industry and is not trying to sell me their product. They are creating a product that makes being a builder and business owner easier. They listen and then deliver.",
       rating: 5
     }
   ];
