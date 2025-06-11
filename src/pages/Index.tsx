@@ -6,7 +6,6 @@ import { Badge } from '@/components/ui/badge';
 import { ArrowRight, CheckCircle, Star, Users, Clock, DollarSign, Shield } from 'lucide-react';
 import Hero from '@/components/Hero';
 import Features from '@/components/Features';
-import SocialProof from '@/components/SocialProof';
 import Benefits from '@/components/Benefits';
 import Testimonials from '@/components/Testimonials';
 import CTA from '@/components/CTA';
@@ -16,7 +15,6 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Hero />
-      <SocialProof />
       <Benefits />
       <Features />
       <Testimonials />

@@ -8,13 +8,13 @@ const Benefits = () => {
     {
       icon: Clock,
       title: "80% Faster Estimates",
-      description: "Generate detailed estimates in minutes instead of days. Our AI processes blueprints and specifications instantly.",
+      description: "Generate detailed estimates in minutes instead of days. Our AI processes specifications instantly.",
       stat: "3 minutes avg"
     },
     {
       icon: DollarSign,
       title: "95% Accuracy Rate",
-      description: "Machine learning algorithms trained on millions of projects ensure precision you can trust for bidding.",
+      description: "Machine learning algorithms trained on construction data ensure precision you can trust for bidding.",
       stat: "±2% variance"
     },
     {
