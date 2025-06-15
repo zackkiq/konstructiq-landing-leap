@@ -23,7 +23,7 @@ const Hero = () => {
             </h1>
             
             <p className="text-xl text-gray-600 leading-relaxed">
-              Transform your bidding process with AI-powered estimating that delivers 95% accuracy. 
+              Transform your bidding process with AI-powered estimating. 
               Win more projects while reducing estimate time by 80%.
             </p>
             
