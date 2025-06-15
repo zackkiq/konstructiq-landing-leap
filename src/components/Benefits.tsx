@@ -14,7 +14,7 @@ const Benefits = () => {
     {
       icon: Users,
       title: "Win More Projects",
-      description: "Respond to RFPs faster and with more competitive bids. Our users report higher win rates.",
+      description: "Respond to RFPs faster and with more competitive bids.",
       stat: "More wins"
     }
   ];
