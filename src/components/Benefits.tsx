@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Clock, DollarSign, Users, Shield } from 'lucide-react';
+import { Clock, Users } from 'lucide-react';
 
 const Benefits = () => {
   const benefits = [
@@ -12,22 +12,10 @@ const Benefits = () => {
       stat: "3 minutes avg"
     },
     {
-      icon: DollarSign,
-      title: "95% Accuracy Rate",
-      description: "Machine learning algorithms trained on construction data ensure precision you can trust for bidding.",
-      stat: "±2% variance"
-    },
-    {
       icon: Users,
       title: "Win More Projects",
-      description: "Respond to RFPs faster and with more competitive bids. Our users report 40% higher win rates.",
-      stat: "40% more wins"
-    },
-    {
-      icon: Shield,
-      title: "Risk Reduction",
-      description: "Built-in risk analysis and contingency planning help you avoid costly overruns and project delays.",
-      stat: "15% less overruns"
+      description: "Respond to RFPs faster and with more competitive bids. Our users report higher win rates.",
+      stat: "More wins"
     }
   ];
 
@@ -44,7 +32,7 @@ const Benefits = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {benefits.map((benefit, index) => (
             <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow duration-300">
               <CardContent className="p-8 text-center">
