@@ -9,6 +9,12 @@ const Hero = () => {
       <div className="container mx-auto max-w-7xl">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+            <div className="flex justify-start">
+              <a href="https://www.capterra.com/p/10024163/KonstructIQ/reviews/" target="_blank" rel="noopener noreferrer">
+                <img src="https://brand-assets.capterra.com/badge/1908d028-e12a-417f-9600-c961169ab39e.svg" alt="Capterra Badge" className="h-8" />
+              </a>
+            </div>
+            
             <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-brand-dark">
               Get Accurate <span className="text-brand-primary">Construction Estimates</span> in Minutes, Not Days
             </h1>
