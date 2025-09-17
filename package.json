@@ -81,3 +81,21 @@
     "vite": "^5.4.1"
   }
 }
+
+{
+  // ...keep everything else in your file...
+
+  "scripts": {
+    // KEEP your existing scripts; just ensure there is a build script that outputs to "dist"
+    // If you already have "build": "vite build" or similar, you're good.
+    "build": "vite build",
+    "dev": "vite",
+    "preview": "vite preview"
+  },
+
+  // Optional but helpful so Netlify picks a good Node version
+  "engines": {
+    "node": ">=18 <23"
+  }
+}
+
