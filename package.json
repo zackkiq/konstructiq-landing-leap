@@ -83,17 +83,22 @@
 }
 
 {
-  // ...keep everything else in your file...
+  "name": "konstructiq-landing-leap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
 
   "scripts": {
-    // KEEP your existing scripts; just ensure there is a build script that outputs to "dist"
-    // If you already have "build": "vite build" or similar, you're good.
-    "build": "vite build",
     "dev": "vite",
+    "build": "vite build",
     "preview": "vite preview"
   },
 
-  // Optional but helpful so Netlify picks a good Node version
+  "dependencies": {
+  },
+  "devDependencies": {
+  },
+
   "engines": {
     "node": ">=18 <23"
   }
