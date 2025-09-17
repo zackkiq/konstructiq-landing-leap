@@ -1,33 +1,10 @@
-import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
-import path from "path";
-import { componentTagger } from "lovable-tagger";
-
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  server: {
-    host: "::",
-    port: 8080,
-  },
-  plugins: [
-    react(),
-    mode === 'development' &&
-    componentTagger(),
-  ].filter(Boolean),
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
-}));
-
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// Keep base '' so assets resolve whether proxied at a subpath or viewed at the *.netlify.app root.
-export default defineConfig({
+// ONE default export only:
+export default defineConfig(({ mode }) => ({
   plugins: [react()],
+  // keep assets working when served at /konstructiq-landing-leap/*
   base: '',
-  build: { outDir: 'dist' }
-})
-
+  build: { outDir: 'dist' },
+}))
