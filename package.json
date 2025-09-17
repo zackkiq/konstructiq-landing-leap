@@ -82,25 +82,3 @@
   }
 }
 
-{
-  "name": "konstructiq-landing-leap",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-
-  "dependencies": {
-  },
-  "devDependencies": {
-  },
-
-  "engines": {
-    "node": ">=18 <23"
-  }
-}
-
