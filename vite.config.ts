@@ -20,3 +20,14 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+// Keep base '' so assets resolve whether proxied at a subpath or viewed at the *.netlify.app root.
+export default defineConfig({
+  plugins: [react()],
+  base: '',
+  build: { outDir: 'dist' }
+})
+
