@@ -14,6 +14,22 @@ const ContactForm = () => {
       document.head.appendChild(script);
       console.log('HubSpot script added to head');
     }
+
+    // Load RevenueHero scheduler script
+    const revenueHeroScript = document.createElement('script');
+    revenueHeroScript.src = 'https://assets.revenuehero.io/scheduler.min.js';
+    revenueHeroScript.type = 'text/javascript';
+    revenueHeroScript.onload = () => {
+      // Initialize RevenueHero after script loads
+      const initScript = document.createElement('script');
+      initScript.type = 'text/javascript';
+      initScript.text = `
+        window.hero = new RevenueHero({ routerId: '4285' })
+        hero.schedule('hsform_5aad3dc6-fff6-4ade-b5ae-ca04ae0a04c1')
+      `;
+      document.body.appendChild(initScript);
+    };
+    document.head.appendChild(revenueHeroScript);
   }, []);
 
   return (
