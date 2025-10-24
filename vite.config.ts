@@ -5,9 +5,6 @@ import { fileURLToPath, URL } from 'node:url'
 // ONE default export only
 export default defineConfig({
   plugins: [react()],
-  server: {
-    port: 8080
-  },
   // keep assets working when hosted at /konstructiq-landing-leap/*
   base: '',
   build: { outDir: 'dist' },
