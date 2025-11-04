@@ -24,8 +24,10 @@ const ContactForm = () => {
       const initScript = document.createElement('script');
       initScript.type = 'text/javascript';
       initScript.text = `
-        window.hero = new RevenueHero({ routerId: '4285' })
-        hero.schedule('hsform_7bf0420c-f2c2-44c8-8d88-cc53008873f7')
+        window.hero1 = new RevenueHero({ routerId: '4285' })
+        hero1.schedule('hsform_5aad3dc6-fff6-4ade-b5ae-ca04ae0a04c1')
+        window.hero2 = new RevenueHero({ routerId: '4285' })
+        hero2.schedule('hs_form7bf0420c-f2c2-44c8-8d88-cc53008873f7')
       `;
       document.body.appendChild(initScript);
     };
