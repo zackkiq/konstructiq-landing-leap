@@ -25,7 +25,7 @@ const ContactForm = () => {
       initScript.type = 'text/javascript';
       initScript.text = `
         window.hero = new RevenueHero({ routerId: '4285' })
-        hero.schedule('hsform_5aad3dc6-fff6-4ade-b5ae-ca04ae0a04c1')
+        hero.schedule('hsform_7bf0420c-f2c2-44c8-8d88-cc53008873f7')
       `;
       document.body.appendChild(initScript);
     };
@@ -47,7 +47,7 @@ const ContactForm = () => {
         <div 
           className="hs-form-frame" 
           data-region="na1" 
-          data-form-id="5aad3dc6-fff6-4ade-b5ae-ca04ae0a04c1" 
+          data-form-id="7bf0420c-f2c2-44c8-8d88-cc53008873f7" 
           data-portal-id="44954242"
         ></div>
       </CardContent>
