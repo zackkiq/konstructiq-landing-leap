@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Badge } from '@/components/ui/badge';
-import ContactForm from './ContactForm';
+import HeroContactForm from './HeroContactForm';
 
 const Hero = () => {
   return (
@@ -42,7 +42,7 @@ const Hero = () => {
           </div>
           
           <div className="relative">
-            <ContactForm />
+            <HeroContactForm />
             
             {/* Floating elements for visual appeal */}
             <div className="absolute -top-4 -right-4 bg-brand-secondary text-brand-dark px-4 py-2 rounded-full text-sm font-medium">

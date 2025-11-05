@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { CheckCircle } from 'lucide-react';
-import ContactForm from './ContactForm';
+import CTAContactForm from './CTAContactForm';
 
 const CTA = () => {
   return (
@@ -33,7 +33,7 @@ const CTA = () => {
           </div>
           
           <div>
-            <ContactForm />
+            <CTAContactForm />
           </div>
         </div>
       </div>

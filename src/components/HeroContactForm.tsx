@@ -2,7 +2,7 @@
 import React, { useEffect } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 
-const ContactForm = () => {
+const HeroContactForm = () => {
   useEffect(() => {
     // Check if HubSpot script is already loaded
     const existingScript = document.querySelector('script[src="https://js.hsforms.net/forms/embed/44954242.js"]');
@@ -31,7 +31,7 @@ const ContactForm = () => {
         <div 
           className="hs-form-frame" 
           data-region="na1" 
-          data-form-id="7bf0420c-f2c2-44c8-8d88-cc53008873f7" 
+          data-form-id="5aad3dc6-fff6-4ade-b5ae-ca04ae0a04c1" 
           data-portal-id="44954242"
         ></div>
       </CardContent>
@@ -39,4 +39,4 @@ const ContactForm = () => {
   );
 };
 
-export default ContactForm;
+export default HeroContactForm;
