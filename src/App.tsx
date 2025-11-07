@@ -8,12 +8,13 @@ import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
-// Use the subfolder under /landing-pages/<anything> as the router basename.
-// Falls back to "/" for previews (e.g., lovable.app) or root hosting.
-const m =
-  typeof window !== "undefined" &&
-  window.location.pathname.match(/^\/landing-pages\/[^/]+/);
-const basename = m ? m[0] : "/";
+// Detect if we're being served under the gateway subpath.
+// If yes, use that as the basename; otherwise use root "/" so the app works at *.netlify.app too. 
+const basename = 
+  typeof window !== "undefined" && 
+  window.location.pathname.startsWith("/konstructiq-landing-leap") 
+  ? "/konstructiq-landing-leap" 
+  : "/";
 
 const App = () => (
   <QueryClientProvider client={queryClient}>
