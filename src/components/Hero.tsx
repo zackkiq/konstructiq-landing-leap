@@ -15,7 +15,7 @@ const Hero = () => {
               </a>
             </div>
             
-            <h1 className="text-5xl lg:text-6xl font-bold leading-tight text-brand-dark">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-brand-dark">
               Get Accurate <span className="text-brand-primary">Construction Estimates</span> in Minutes, Not Days
             </h1>
             
